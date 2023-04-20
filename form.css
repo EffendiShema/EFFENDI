@@ -1,25 +1,15 @@
-body{
-background-color: green;
-}
-
-.box{
+.form{
     float: right;
-    left: 50%;
-    height: auto;
-
-
+    position: center;
+    font-size: 30px;
 }
-.one{
-    max-width: 1000%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    right: 50%;
+.link{
+    background-color: green;
+    size: 100px;
+    padding-top: 8
+    0px;
 }
-.div container{
 
-}
 
 
 
