@@ -1,0 +1,21 @@
+body{
+    background-color: #5799cf3;
+}
+
+.nav{
+    background-color: #1e7bf4;
+    height: 70px;
+
+}
+  .nav > ul {
+    display: flex;
+    float: right;
+
+  }
+   .nav > ul > li {
+    list-style
+    flo
+   }
+
+
+
