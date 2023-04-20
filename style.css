@@ -1,21 +1,47 @@
+
 body{
-    background-color: #5799cf3;
+background-color: #5799;
 }
 
 .nav{
-    background-color: #1e7bf4;
-    height: 70px;
+height: 70px;
 
 }
-  .nav > ul {
-    display: flex;
-    float: right;
+.nav a{
+float: left;
+text-align: center;
+padding: 14px 16px;
+text-decoration:none; 
+font-size: 17px;
+}
+.navbar >img{
+float: left; 
+cursor: pointer;
+width: 60px;
+padding: 4px 26px;
 
-  }
-   .nav > ul > li {
-    list-style
-    flo
-   }
-
-
-
+}
+.nav > ul {
+display: flex;
+padding-top: 30px;
+float: right;
+}
+.nav > ul > li{
+list-style-type: none;
+padding-right: 30px;
+}
+.navbar >ul >li>a{
+text-decoration: none;
+}
+.img{
+width: 25px;
+height: 10px;
+}
+.one{
+background-color: rgb(0, 163, 41);
+display:flex ;
+justify-content: space between;
+}
+.nav{
+float: right;
+}
