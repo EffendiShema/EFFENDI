@@ -1,0 +1,25 @@
+.body{
+
+
+}
+.nav{
+    float: center;
+    background-color: green;
+ 
+}
+.sub{
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.login{
+    border-radius: 10px;
+    font-size: 1.2rem;
+    height: 40px;
+}
+
+
