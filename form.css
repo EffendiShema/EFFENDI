@@ -2,15 +2,28 @@
     float: right;
     position: center;
     font-size: 30px;
+    padding-right: 50px;
 }
 .link{
     background-color: green;
-    size: 100px;
-    padding-top: 8
-    0px;
+    size: ;
+    
+}
+.card{
+   position: relative;
 }
 
-
+.image-resize{
+    width: 590px;
+     height: 650px;
+}
+.text{
+    position: absolute;
+    top: 80%;
+    color: green;
+    float: left;
+    padding-right:25px ;
+}
 
 
 
