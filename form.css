@@ -25,7 +25,7 @@
 .text{
     position: absolute;
     top: 80%;
-    color: green;
+    color: black;
     float: left;
     padding-right:25px ;
 }
@@ -40,6 +40,7 @@
 }
 .log{
     font-weight: 100;
+    
 }
 .login{
     border-radius: 10px;
