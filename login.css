@@ -1,39 +1,41 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-image: url("doortodoor.jpg");
-    background-size: cover;
-    background-position: center;
-    
-   
+    background: url(beatz.jpg);
+   background-size: cover;
+   background-position: center;
+
 }
 .form{
     position: absolute;
     top: 50%;
-    left: 47%;
+    left: 50%;
     transform: translate(-50%,-50%);
     width: 300px;
-    height: 350px;
+    height: 400px;
     padding: 50px;
-    background:transparent;
+    background: #3b3b3bbd;
     box-sizing: border-box;
+    box-shadow: 0 15px 25px black;
+    border-radius: 30px;
+
         
 }
 .form input{
     border: none;
-    color: rgb(194, 130, 58);
-    background:rgb(194, 130, 58);
-    width: 250px;
+    color:rgba(255, 255, 255, 0.884);
+    background:rgba(0, 0, 0, 0.363);
+    width: 180px;
     height: 40px;
     padding-left: 10px;
     font-weight: bolder;
+    border-radius: 10px;
 }
 .form input[type="password"]{
     margin-bottom: 20px;
 }
 .form input::placeholder{
-    color: rgb(236, 238, 230);
-    font-weight: bolder;
+    color:rgba(255, 255, 255, 0.671);
 }
 .form input[type="submit"]{
     font-family: "cooper black";
@@ -42,9 +44,6 @@ body{
 }
 .form a{
     font-family: "cooper black";
-    color: rgb(243, 243, 243);
-}
-.sign{
-    margin-top: 5px;        
+    color: white;
 }
 

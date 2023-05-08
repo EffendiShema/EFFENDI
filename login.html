@@ -1,32 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>login</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='form.css'>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login form</title>
 </head>
-<body class="link">
+<body>
     <div class="form">
-    <form action="" method="post">
-        <h1 class="log">Login</h1>
-         <input type="text" name="email" placeholder="email" class="login">
-            <br><br>
-            <input type="text" name="password" placeholder="password" class="login">
-                <p class="pass">forgot your password?</p>
-                <br>
-               <button class="btn">login</button>
+    <form method="get">
+        <h2>Login form</h2>
 
-    </form>
-    
-</div>
-<div class="card">
-    <img class="img-responsive image-resize" src="cool.jpg" alt="">
-    <div class="text">
-        <h1>SPOTIFY</h1>
+        <label for="Email">Email</label>
+        <input type="text" placeholder="Enter your Email">
+         <label for="password">password</label>
+        <input type="password" placeholder="Enter your password">
+         
+        <button type="submit" name="button"><a href="index.html" class="action_btn">LOG IN</a></button>
+
+
+
+
+        <!-- <input type="submit" value="Login" href="home.html" a></a>-->
+
+            <div>
+                Already have an account<a href="signup.html">sign up</a>
+        </div>
+        </form>
     </div>
-</div>
-</body>
-</html>
+    </body>
+    </html>
